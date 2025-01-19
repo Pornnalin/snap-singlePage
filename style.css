@@ -271,7 +271,7 @@ main {
 }
 .logo-group {
   display: flex;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
@@ -312,6 +312,9 @@ main {
   .hero-left h1 {
     font-size: 30px;
     text-align: center;
+  }
+  .logo-group {
+    justify-content: space-around;
   }
   .logo-group img {
     width: 100%;
